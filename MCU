@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "name": "TMS320_YF35BBT.out",
+      "mcu": "TMS320F28023PTT",
+      "programmer": "TI UniFlash (XDS100v2)",
+      "executable_path": "C:\\ti\\uniflash\\dslite.bat",
+      "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
+    },
+    {
+      "name": "R5F104JF_Firmware.hex",
+      "mcu": "R5F104JF",
+      "programmer": "E2 Emulator / RFP",
+      "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.09\\rfpc.exe",
+      "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
+    }
+  ]
+}
