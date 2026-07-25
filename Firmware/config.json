@@ -1,47 +1,38 @@
 {
-  "version": "1.0",
-  "files": [
-    {
-      "name": "r5f100fea.hex",
-      "mcu": "R5F100FEA",
-      "programmer": "E2 Emulator / RFP",
-      "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
-      "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
-    },
-    {
-      "name": "r5f104jf.hex",
-      "mcu": "R5F104JF",
-      "programmer": "E2 Emulator / RFP",
-      "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
-      "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
-    },
-    {
-      "name": "tms320f28023ptt.out",
-      "mcu": "TMS320F28023PTT",
-      "programmer": "TI UniFlash (XDS100v2)",
-      "executable_path": "C:\\ti\\uniflash\\dslite.bat",
-      "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
-    },
-    {
-      "name": "tms320f280025.out",
-      "mcu": "TMS320F280025",
-      "programmer": "TI UniFlash (XDS100v2)",
-      "executable_path": "C:\\ti\\uniflash\\dslite.bat",
-      "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
-    },
-    {
-      "name": "imc300a.s3",
-      "mcu": "IMC300A",
-      "programmer": "Segger J-Flash",
-      "executable_path": "C:\\Program Files\\SEGGER\\JLink\\JFlash.exe",
-      "cli_args": "-openprj config.jflash -open \"{firmware_path}\" -auto -exit"
-    },
-    {
-      "name": "eeprom.rom",
-      "mcu": "EEPROM",
-      "programmer": "CH341 Programmer",
-      "executable_path": "C:\\Program Files\\CH341A\\CH341A.exe",
-      "cli_args": "/w \"{firmware_path}\""
-    }
-  ]
+  "r5f100fea.hex": {
+    "mcu": "R5F100FEA",
+    "programmer": "E2 Emulator / RFP",
+    "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
+    "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
+  },
+  "r5f104jf.hex": {
+    "mcu": "R5F104JF",
+    "programmer": "E2 Emulator / RFP",
+    "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
+    "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
+  },
+  "tms320f28023ptt.out": {
+    "mcu": "TMS320F28023PTT",
+    "programmer": "TI UniFlash (XDS100v2)",
+    "executable_path": "C:\\ti\\uniflash\\dslite.bat",
+    "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
+  },
+  "tms320f280025.out": {
+    "mcu": "TMS320F280025",
+    "programmer": "TI UniFlash (XDS100v2)",
+    "executable_path": "C:\\ti\\uniflash\\dslite.bat",
+    "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
+  },
+  "imc300a.s3": {
+    "mcu": "IMC300A",
+    "programmer": "Segger J-Flash",
+    "executable_path": "C:\\Program Files\\SEGGER\\JLink\\JFlash.exe",
+    "cli_args": "-openprj config.jflash -open \"{firmware_path}\" -auto -exit"
+  },
+  "eeprom.rom": {
+    "mcu": "EEPROM",
+    "programmer": "CH341 Programmer",
+    "executable_path": "C:\\Program Files\\CH341A\\CH341A.exe",
+    "cli_args": "/w \"{firmware_path}\""
+  }
 }
