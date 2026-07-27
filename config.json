@@ -1,0 +1,142 @@
+{
+    "files": {
+        "r5f100fea.hex": {
+            "mcu": "R5F100FEA",
+            "programmer": "E2 Emulator / RFP",
+            "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
+            "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
+        },
+        "r5f104jf.hex": {
+            "mcu": "R5F104JF",
+            "programmer": "E2 Emulator / RFP",
+            "executable_path": "C:\\Program Files (x86)\\Renesas Electronics\\Flash Programmer V3.23\\rfpc.exe",
+            "cli_args": "-device {target_mcu} -operation Erase,Program,Verify -file \"{firmware_path}\""
+        },
+        "tms320f28023ptt.out": {
+            "mcu": "TMS320F28023PTT",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "executable_path": "C:\\ti\\uniflash\\dslite.bat",
+            "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
+        },
+        "tms320f280025.out": {
+            "mcu": "TMS320F280025",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "executable_path": "C:\\ti\\uniflash\\dslite.bat",
+            "cli_args": "--config target_config.ccxml --load \"{firmware_path}\""
+        },
+        "imc300a.s3": {
+            "mcu": "IMC300A",
+            "programmer": "Segger J-Flash",
+            "executable_path": "C:\\Program Files\\SEGGER\\JLink\\JFlash.exe",
+            "cli_args": "-openprj config.jflash -open \"{firmware_path}\" -auto -exit"
+        },
+        "eeprom.rom": {
+            "mcu": "EEPROM",
+            "programmer": "CH341 Programmer",
+            "executable_path": "C:\\Program Files\\CH341A\\CH341A.exe",
+            "cli_args": "/w \"{firmware_path}\""
+        },
+        "WGPID18017 V1.4 CASSET.hex": {
+            "programmer": "E2 Emulator Lite",
+            "speed": "High",
+            "operations": "Erase,Program,Verify",
+            "auto_trigger": true,
+            "executable_path": "",
+            "cli_args": "-speed High -operation Erase,Program,Verify -trigger-mode 1 -file \"{firmware_path}\""
+        },
+        "TMSYF50AB-22 REV.1.7": {
+            "display_file_name": "TMSYF50AB-22 REV.1.7.hex",
+            "ic_number": "tms320f28023",
+            "programmer": "xds100v2 dslite uniflash",
+            "speed": "High",
+            "operations": "Erase,Program,Verify reset",
+            "background_app": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "auto_trigger": true,
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-device tms320f28023 -speed High -operation Erase,Program,Verify reset -trigger-mode 1 -file \"{firmware_path}\""
+        },
+        "YF50AB REV1.7-MCU-TMS320F280XX": {
+            "display_file_name": "TMSYF50AB-22 REV.1.7.hex",
+            "ic_number": "tms320f28023",
+            "programmer": "xds100v2 dslite uniflash",
+            "speed": "High",
+            "operations": "Erase,Program,Verify reset",
+            "background_app": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "auto_trigger": true,
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-device tms320f28023 -speed High -operation Erase,Program,Verify reset -trigger-mode 1 -file \"{firmware_path}\""
+        },
+        "YF35AB-22REV1.7": {
+            "display_file_name": "YF35AB-22REV1.7.hex",
+            "ic_number": "TMS320F28023PTT",
+            "programmer": "XDS100V2",
+            "speed": "JTAG",
+            "operations": "Erase,Program,Verify RESET",
+            "background_app": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "auto_trigger": true,
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-device TMS320F28023PTT -speed JTAG -operation Erase,Program,Verify RESET -trigger-mode 1 -file \"{firmware_path}\""
+        },
+        "MIVR50AB-21-PRO VOLTAS DC IND.hex": {
+            "display_file_name": "MIVR50AB-21-PRO VOLTAS DC IND.hex .hex",
+            "ic_number": "R5F100FEA",
+            "programmer": "E2 Emulator Lite",
+            "speed": "High",
+            "operations": "Erase,Program,Verify",
+            "background_app": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/Tools/RFP.exe",
+            "auto_trigger": true,
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/Tools/RFP.exe",
+            "cli_args": "-device R5F100FEA -speed High -operation Erase,Program,Verify -trigger-mode 1 -file \"{firmware_path}\""
+        },
+        "F50AB-LP-3S REV;1.6 VOLTAS": {
+            "hex_file_name": "F50AB-LP-3S REV;1.6.hex",
+            "ccxml_file": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml",
+            "ic_number": "TMS320F28023PTT",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "speed": "high",
+            "operations": "Erase,Program,Verify reset",
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-c \"C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml\" -device TMS320F28023PTT -speed high -operation Erase,Program,Verify reset -file \"{firmware_path}\""
+        },
+        "YF50VT 22-REV.1.7-VOLTAS-TMS320F280XX": {
+            "hex_file_name": "YF50VT 22-REV.1.7 H.hex",
+            "ccxml_file": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023 (1).ccxml",
+            "ic_number": "tms320f28023ptt",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "speed": "high",
+            "operations": "Erase,Program,Verify reset",
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-c \"C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023 (1).ccxml\" -device tms320f28023ptt -speed high -operation Erase,Program,Verify reset -file \"{firmware_path}\""
+        },
+        "YF50AP REV1.7-PANASONIC-TMS320F280XX": {
+            "hex_file_name": "YF50AP REV1.7.hex",
+            "ccxml_file": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml",
+            "ic_number": "TMS320F28023PTT",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "speed": "high",
+            "operations": "Erase,Program,Verify reset",
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-c \"C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml\" -device TMS320F28023PTT -speed high -operation Erase,Program,Verify reset -file \"{firmware_path}\""
+        },
+        "YF35HV REV.1.9": {
+            "hex_file_name": "YF35HV REV.1.9.hex",
+            "ccxml_file": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023 (1).ccxml",
+            "ic_number": "tsm320f28023ptt",
+            "programmer": "TI UniFlash (XDS100v2)",
+            "speed": "high",
+            "operations": "Erase,Program,Verify reset",
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-c \"C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023 (1).ccxml\" -device tsm320f28023ptt -speed high -operation Erase,Program,Verify reset -file \"{firmware_path}\""
+        },
+        "YF50VT 22-REV.1.7-VOTAS-TMS320F280XX": {
+            "hex_file_name": "YF50VT 22-REV.1.7 H.hex",
+            "ccxml_file": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml",
+            "ic_number": "TMS320F28023PTT",
+            "programmer": "XDS100V2",
+            "speed": "HIGH",
+            "operations": "Erase,Program,Verify,Reset",
+            "executable_path": "C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/dslite.bat",
+            "cli_args": "-c \"C:/Users/S.K ELECTRONIC/Desktop/SFPUNIX/TMS320F28023.ccxml\" -device TMS320F28023PTT -speed HIGH -operation Erase,Program,Verify,Reset -file \"{firmware_path}\""
+        }
+    }
+}
