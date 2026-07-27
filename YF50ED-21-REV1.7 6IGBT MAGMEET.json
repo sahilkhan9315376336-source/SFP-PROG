@@ -1,0 +1,10 @@
+{
+    "mcu_specifications": {
+        "mcu_number": "TMS320F28023PTT",
+        "interface_mode": "JTAG"
+    },
+    "programming_settings": {
+        "programmer_name": "DS LITE UNIFLASH",
+        "firmware_head_file": "C:/my projact/all magmeet file/YF50ED-21 REV.1.7.hex"
+    }
+}
